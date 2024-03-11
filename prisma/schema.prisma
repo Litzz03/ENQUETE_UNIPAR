@@ -13,7 +13,7 @@ model Enquete {
   descricao     String
   dataCriacao   DateTime       @default(now())
   dataAlteracao DateTime       @default(now())
-  opcaoEnquete  OpcaoEnquete[]
+  opcoesEnquete OpcaoEnquete[]
 }
 
 model OpcaoEnquete {
